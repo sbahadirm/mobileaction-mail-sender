@@ -1,7 +1,9 @@
 package com.mobileaction.mailsender.mailsender.mail;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author Bahadır Memiş
@@ -9,6 +11,8 @@ import lombok.Data;
  */
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class MailSendRequestDto {
 
     private String emailAddress;
